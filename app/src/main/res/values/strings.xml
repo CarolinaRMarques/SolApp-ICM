@@ -1,0 +1,17 @@
+<resources>
+    <string name="app">SolApp</string>
+    <string name="lang_res">Portuguese</string>
+    <string name="three_res">Three Day Weather</string>
+    <string name="current_res">Current Weather</string>
+
+    <string name="precipation">Precipation</string>
+
+    <string name="current_weather">Current Weather</string>
+    <string name="search_by_local">Search By Local</string>
+    <string name="temp_minimum">Temp.Minimum</string>
+
+    <string name="date_res">Date:</string>
+    <string name="temp_min">Temp. Min</string>
+    <string name="temp_max">Temp. Max</string>
+
+</resources>

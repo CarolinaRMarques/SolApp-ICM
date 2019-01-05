@@ -1,0 +1,350 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/activityContainer"
+    android:background="@color/fundo">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*"
+
+>
+
+    <TableRow
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:fontFamily="@font/biryani_extralight"
+            android:text="@string/date_res"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/currentDateFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_column="2"
+            android:fontFamily="@font/biryani_extralight"
+            android:text=""
+            android:textAllCaps="true"
+            android:textColor="@color/letters"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:fontFamily="@font/biryani_extralight"
+
+            android:text="@string/temp_min"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tempMinFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:fontFamily="@font/biryani_extralight"
+            android:textAllCaps="true"
+            android:textColor="@color/letters"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:fontFamily="@font/biryani_extralight"
+
+            android:text="@string/temp_max"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tempMaxFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:fontFamily="@font/biryani_extralight"
+            android:textAllCaps="true"
+            android:textColor="@color/letters"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:fontFamily="@font/biryani_extralight"
+
+            android:text="@string/precipation"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/precFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:fontFamily="@font/biryani_extralight"
+            android:textAllCaps="true"
+            android:textColor="@color/letters"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:fontFamily="@font/biryani_extralight"
+            android:text="@string/date_res"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/currentDateSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:fontFamily="@font/biryani_extralight"
+            android:text=""
+            android:textAllCaps="true"
+            android:textColor="@color/letters"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:fontFamily="@font/biryani_extralight"
+            android:text="@string/temp_min"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tempMinSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:fontFamily="@font/biryani_extralight"
+            android:textAllCaps="true"
+            android:textColor="@color/letters"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:fontFamily="@font/biryani_extralight"
+
+            android:text="@string/temp_max"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tempMaxSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:fontFamily="@font/biryani_extralight"
+            android:textAllCaps="true"
+            android:textColor="@color/letters"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:fontFamily="@font/biryani_extralight"
+
+            android:text="@string/precipation"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/precSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:fontFamily="@font/biryani_extralight"
+            android:textAllCaps="true"
+            android:textColor="@color/letters"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:fontFamily="@font/biryani_extralight"
+
+            android:text="@string/date_res"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/currentDateThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:fontFamily="@font/biryani_extralight"
+            android:text=""
+            android:textAllCaps="true"
+            android:textColor="@color/letters"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:fontFamily="@font/biryani_extralight"
+
+            android:text="@string/temp_min"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tempMinThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:fontFamily="@font/biryani_extralight"
+            android:textAllCaps="true"
+            android:textColor="@color/letters"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:fontFamily="@font/biryani_extralight"
+
+            android:text="@string/temp_max"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tempMaxThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:fontFamily="@font/biryani_extralight"
+            android:textAllCaps="true"
+            android:textColor="@color/letters"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+        <TableRow
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:fontFamily="@font/biryani_extralight"
+
+                android:text="@string/precipation"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/precThird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:fontFamily="@font/biryani_extralight"
+                android:textColor="@color/letters"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="true" />
+        </TableRow>
+
+</TableLayout>
+</ScrollView>

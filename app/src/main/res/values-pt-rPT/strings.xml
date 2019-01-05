@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang_res">Portuguese</string>
+    <string name="three_res">Três Dias de Tempo</string>
+    <string name="current_res">Tempo Atual</string>
+    <string name="precipation">Precipitação</string>
+    <string name="current_weather">Tempo Atual</string>
+    <string name="search_by_local">Procurar por Local</string>
+    <string name="temp_minimum">Temp.Mínima</string>
+    <string name="date_res">Data:</string>
+    <string name="temp_min">Temp.Mín</string>
+    <string name="temp_max">Temp.Máx</string>
+    <string name="app">SolApp</string>
+</resources>

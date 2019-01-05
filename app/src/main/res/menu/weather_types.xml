@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/current"
+        android:title="@string/current_weather"
+        app:showAsAction="never"/>
+    <item android:id="@+id/further"
+        android:title="@string/three_res"
+        app:showAsAction="never"/>
+    <item android:id="@+id/search_local"
+        android:title="@string/search_by_local"
+        app:showAsAction="never"/>
+    <item android:id="@+id/lang"
+        android:title="Português"
+        app:showAsAction="never"/>
+
+</menu>
